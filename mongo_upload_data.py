@@ -3,7 +3,7 @@ from langchain.document_loaders.csv_loader import CSVLoader
 import os
 from dotenv import load_dotenv
 
-load_dotenv("assisment_scripts/variables.env")
+load_dotenv("variables.env")
 
 
 def add_data_to_mongo():

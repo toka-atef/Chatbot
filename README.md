@@ -17,7 +17,7 @@ This project is designed to create a chatbot that interacts with purchase order 
    ```
 2. ** Download Example Dataset:**
 
-   -You can download the example dataset from this[Link](https://www.kaggle.com/datasets/sohier/large-purchases-by-the-state-of-ca/)
+   -You can download the example dataset from [here](https://www.kaggle.com/datasets/sohier/large-purchases-by-the-state-of-ca/)
    
 
 3. **Configure Environment Variables:**

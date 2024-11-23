@@ -15,14 +15,18 @@ This project is designed to create a chatbot that interacts with purchase order 
    ```bash
    pip install -r requirements.txt
    ```
+2. ** Download Example Dataset:**
 
-2. **Configure Environment Variables:**
+   -You can download the example dataset from this[Link](https://www.kaggle.com/datasets/sohier/large-purchases-by-the-state-of-ca/)
+   
+
+3. **Configure Environment Variables:**
    - Update the following variables to the `.env` file:
 
    - Replace `<your_mongodb_connection_url>` with the connection string to your MongoDB database.
    - Replace `<your_database_name>` with the name of your database.
 
-3. **Initial Data Upload and Embedding Creation** (only for first-time setup):
+4. **Initial Data Upload and Embedding Creation** (only for first-time setup):
    - If this is your first time running the application, you'll need to upload data to the MongoDB database and create embeddings.
    - Run the following scripts in order:
 
@@ -33,7 +37,7 @@ This project is designed to create a chatbot that interacts with purchase order 
 
    - **Note:** If you have already uploaded the data to the database, you can skip these steps.
 
-4. **Run the Chatbot:**
+5. **Run the Chatbot:**
    ```bash
    streamlit run app.py
    ```

@@ -6,7 +6,7 @@ from langchain_ollama import OllamaEmbeddings
 import os
 from dotenv import load_dotenv
 
-load_dotenv("assisment_scripts/variables.env")
+load_dotenv("variables.env")
 
 client = MongoClient(os.environ.get('MONGO_URI'))
 db = client[os.environ.get('DB')]

@@ -11,7 +11,7 @@ import numpy as np
 import sys
 from dotenv import load_dotenv
 
-load_dotenv("assisment_scripts/variables.env")
+load_dotenv("variables.env")
 
 
 def get_embedding_data_mongo():

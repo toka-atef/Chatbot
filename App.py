@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_chat import message
-from assisment_scripts.chatbot import chatbot_query
+from chatbot import chatbot_query
 
 def main():
 
